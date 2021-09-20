@@ -1,0 +1,40 @@
+* {
+	font-family: 'Slabo 27px', serif;
+}
+body {
+	background:linear-gradient(to left, red, darkviolet);
+}
+header {
+	background:linear-gradient(to right,red, darkviolet);
+	outline:2px groove lime;
+	position: sticky;
+	top:10px;
+	text-align: center;
+}
+nav	{
+	border:4px groove lime;
+	background:linear-gradient(to left, darkviolet, red);
+	overflow: auto;
+}
+nav p {
+	font-size: 1.5rem;
+}
+#me {
+	float:left;
+	width: 200px;
+	height: auto;
+}
+ul	{
+	box-shadow: 0 0 10px lime;
+	max-width: 300px;
+}
+#perfil p{
+	column-count: 2;
+	column-gap: 20px;
+	outline: 2px groove lime;
+}
+#peliculas {
+	max-width: 300px;
+	border:2px solid darkblue;
+	border-radius: 10%;
+}
