@@ -1,0 +1,32 @@
+body {
+	background:linear-gradient(to right, red, darkviolet);
+}
+input ,textarea{
+	background-color: black;
+	color:white;
+}
+input:focus, textarea:focus {
+	outline: 2px groove lime;
+}
+button {
+	background:linear-gradient(to left, red, darkviolet);
+	border:2px inset lime;
+	border-radius: 10%;
+	margin: 10px;
+}
+button:active {
+	border:2px outset lime;
+	border-radius: 10%;
+}
+a {
+	box-sizing: border-box;;
+	display: inline-block;
+	border:2px groove lime;
+	padding:10px;
+	margin: 20px;
+	background:linear-gradient(to right, darkviolet, red);
+}
+a:active {
+	border:2px solid linear-gradient(to right, red, darkviolet);
+	color:black;
+}
